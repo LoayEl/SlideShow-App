@@ -133,7 +133,7 @@ fun Greeting( modifier: Modifier = Modifier) {
                 modifier = modifier,
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
-                Button(onClick = {  result = if (result > 1) result - 1 else 3},
+                Button(onClick = {  result = if (result > 1) result - 1 else 4},
                     colors=ButtonDefaults.buttonColors(
                         containerColor = Color.Black,
                         contentColor = Color.White
